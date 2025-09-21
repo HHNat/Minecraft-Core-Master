@@ -51,7 +51,6 @@ Compatible con : **Module**, **CommonJS**
 
 ## **Componentes principales**
 
-
 <p align="center">
   <img align="center" width="auto" src="./docs/ComponentsTittle/minecraft_downloader.png">
 </p>
@@ -883,57 +882,87 @@ Estado del servidor:
 
 MC-CORE es un CLI para descargar y lanzar Minecraft usando los módulos `MinecraftDownloader` y `MinecraftLauncher`.
 
-Comandos disponibles:
+## Comandos disponibles:
 
-1. **download**
+---
 
-   Sintaxis:
-   `mc-core download <version> <dir> [concurrency]`
+### 1. **download**
 
-   * version: Versión de Minecraft a descargar (ej: 1.12.2)
-   * dir: Directorio donde se instalará Minecraft (ej: .minecraft)
-   * concurrency (opcional): Número de descargas simultáneas (por defecto: 1)
+Sintaxis:
 
-   Ejemplo:
+```bash
+mc-core download <version> <dir> [concurrency] [installJava]
+```
 
-   ```
-   mc-core download 1.19.2 ./minecraft 5
-   ```
+* **version**: Versión de Minecraft a descargar (ej: 1.12.2)
+* **dir**: Directorio donde se instalará Minecraft (ej: `.minecraft`)
+* **concurrency** (opcional): Número de descargas simultáneas (por defecto: 1)
+* **installJava** (opcional): true/false para instalar Java automáticamente si no está presente (por defecto: false)
 
-   Salida esperada:
+Ejemplo:
 
-   ```
-   [ PROGRESS ] { current: 'Assets | 1305/1305', stepPercent: 100, totalPercent: 80 }
-   [ DEBUG ] Assets
-   [ PROGRESS ] { current: 'Cliente | 3/3', stepPercent: 100, totalPercent: 100 }
-   [ DONE ] Descarga completada
-   Minecraft Se a Descargado Exitosamente : Dir. ./minecraft, Vers. 1.19.2
-   ```
+```bash
+mc-core download 1.19.2 ./minecraft 5 true
+```
 
-2. **launch**
+Salida esperada:
 
-   Sintaxis:
-   `mc-core launch <version> <dir> [debug] [memoryMax] [memoryMin]`
+```text
+[ PROGRESS ] { current: 'Assets | 1305/1305', stepPercent: 100, totalPercent: 80 }
+[ DEBUG ] Assets
+[ PROGRESS ] { current: 'Cliente | 3/3', stepPercent: 100, totalPercent: 100 }
+[ DONE ] Descarga completada
+Minecraft se ha descargado exitosamente: Dir. ./minecraft, Vers. 1.19.2, InstallJava: true
+```
 
-   * version: Versión de Minecraft a lanzar (ej: 1.12.2)
-   * dir: Directorio de instalación de Minecraft (ej: .minecraft)
-   * debug (opcional): true para activar logs detallados (por defecto: false)
-   * memoryMax (opcional): Memoria máxima para Java (por defecto: 2G)
-   * memoryMin (opcional): Memoria mínima para Java (por defecto: 512M)
+---
 
-   Ejemplo:
+### 2. **launch**
 
-   ```
-   mc-core launch 1.19.2 ./minecraft true 4G 1G
-   ```
+Sintaxis:
 
-   Salida esperada:
+```bash
+mc-core launch <version> <dir> <username> [debug] [memoryMax] [memoryMin]
+```
 
-   ```
-   [DEBUG] Iniciando Minecraft 1.19.2
-   [DEBUG] Memoria asignada: 1G - 4G
-   [DEBUG] Lanzador iniciado correctamente
-   ```
+* **version**: Versión de Minecraft a lanzar (ej: 1.12.2)
+* **dir**: Directorio de instalación de Minecraft (ej: `.minecraft`)
+* **username**: Nombre del jugador que aparecerá en el launcher (ej: `Player`)
+* **debug** (opcional): true para activar logs detallados (por defecto: false)
+* **memoryMax** (opcional): Memoria máxima para Java (por defecto: 2G)
+* **memoryMin** (opcional): Memoria mínima para Java (por defecto: 512M)
+
+Ejemplo:
+
+```bash
+mc-core launch 1.19.2 ./minecraft StepNicka true 4G 1G
+```
+
+Salida esperada:
+
+```text
+[DEBUG] Iniciando Minecraft 1.19.2
+[DEBUG] Usuario: StepNicka
+[DEBUG] Memoria asignada: 1G - 4G
+[DEBUG] Lanzador iniciado correctamente
+```
+
+---
+
+### 3. **version**
+
+Sintaxis:
+
+```bash
+mc-core -v
+mc-core --version
+```
+
+Muestra la versión actual del paquete MC-CORE:
+
+```text
+Minecraft-Core-Master version: 7.5.5
+```
 
 ---
 
@@ -1020,6 +1049,8 @@ meterla en el paquete sin que explote todo. :v
 
 Un héroe sin capa... 🦸‍♀️  
 
-> [NovaStep Studios en GitLab](https://GitLab.com/NovaStepStudios)
+> [NovaStep Studios en GitLab](https://GitLab.com/SantiagoStepnicka2025)
+> [NovaStep Studios en GitLab](https://GitLab.com/SantiagoStepnicka2025)
 
-> [Minecraft-Core-Master en GitLab](https://GitLab.com/NovaStepStudios/Minecraft-Core-Master)
+> [Minecraft-Core-Master en GitLab](https://GitLab.com/SantiagoStepnicka2025/Minecraft-Core-Master)
+> [Minecraft-Core-Master en Github](https://GitHub.com/SantiagoStepnicka2025/Minecraft-Core-Master)
